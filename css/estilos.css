@@ -1,35 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-*{
-    font-family: 'Roboto Mono', monospace !important;
+* {
+  font-family: "Roboto Mono", monospace !important;
 }
-.bg-brown{
-    background-color: #BF9663 !important;
+body{
+  height: 100vh;
+  width: 100vw;
 }
-.bg-caqui{
-    background-color: #BF9C5A !important;
+main{
+  height: 80vh;
+  width: 100vw;
 }
-.bg-grey{
-    background-color: #BFCFD9 !important;
+.bg-brown {
+  background-color: #bf9663 !important;
 }
-.bg-grey-medium{
-    background-color: #A3B2BF !important;
+.bg-caqui {
+  background-color: #bf9c5a !important;
 }
-.bg-grey-dark{
-    background-color: #536473 !important;
+.bg-grey {
+  background-color: #bfcfd9 !important;
 }
-.text-brown{
-    color: #BF9663 !important;
+.bg-grey-medium {
+  background-color: #a3b2bf !important;
 }
-.text-caqui{
-    color: #BF9C5A !important;
+.bg-grey-dark {
+  background-color: #536473 !important;
 }
-.text-grey{
-    color: #BFCFD9 !important;
+.text-brown {
+  color: #bf9663 !important;
 }
-.text-grey-medium{
-    color: #A3B2BF !important;
+.text-caqui {
+  color: #bf9c5a !important;
 }
-.text-grey-dark{
-    color: #536473 !important;
+.text-grey {
+  color: #bfcfd9 !important;
+}
+.text-grey-medium {
+  color: #a3b2bf !important;
+}
+.text-grey-dark {
+  color: #536473 !important;
 }
