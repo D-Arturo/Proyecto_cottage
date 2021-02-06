@@ -3,6 +3,33 @@
 *{
     font-family: 'Roboto Mono', monospace !important;
 }
-.back-marron{
+.bg-brown{
     background-color: #BF9663 !important;
+}
+.bg-caqui{
+    background-color: #BF9C5A !important;
+}
+.bg-grey{
+    background-color: #BFCFD9 !important;
+}
+.bg-grey-medium{
+    background-color: #A3B2BF !important;
+}
+.bg-grey-dark{
+    background-color: #536473 !important;
+}
+.text-brown{
+    color: #BF9663 !important;
+}
+.text-caqui{
+    color: #BF9C5A !important;
+}
+.text-grey{
+    color: #BFCFD9 !important;
+}
+.text-grey-medium{
+    color: #A3B2BF !important;
+}
+.text-grey-dark{
+    color: #536473 !important;
 }
