@@ -1,43 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-
+:root{
+  --brown: #bf9663;
+  --caqui: #bf9c5a;
+  --grey: #bfcfd9;
+  --grey-medium: #a3b2bf;
+  --grey-dark: #536473;
+}
 * {
   font-family: "Roboto Mono", monospace !important;
 }
-body{
-  height: 100vh;
-  width: 100vw;
-}
-main{
-  height: 80vh;
-  width: 100vw;
-}
 .bg-brown {
-  background-color: #bf9663 !important;
+  background-color: var(--brown)  !important;
 }
 .bg-caqui {
-  background-color: #bf9c5a !important;
+  background-color: var(--caqui) !important;
 }
 .bg-grey {
-  background-color: #bfcfd9 !important;
+  background-color: var(--grey)  !important;
 }
 .bg-grey-medium {
-  background-color: #a3b2bf !important;
+  background-color: var(--grey-medium) !important;
 }
 .bg-grey-dark {
-  background-color: #536473 !important;
+  background-color: var(--grey-dark) !important;
 }
 .text-brown {
-  color: #bf9663 !important;
+  color: var(--brown) !important;
 }
 .text-caqui {
-  color: #bf9c5a !important;
+  color: var(--caqui) !important;
 }
 .text-grey {
-  color: #bfcfd9 !important;
+  color: var(--grey) !important;
 }
 .text-grey-medium {
-  color: #a3b2bf !important;
+  color: var(--grey-medium) !important;
 }
 .text-grey-dark {
-  color: #536473 !important;
+  color: var(--grey-dark) !important;
+}
+a.action:hover, a.activa:active{
+  color: var(--grey-dark) !important;
+}
+a.activa{
+  border-bottom: 3px solid;
+  border-bottom-color: var(--grey);
 }

@@ -9,7 +9,7 @@
     <script defer src="scripts/bootstrap.min.js" ></script>
   </head>
   <body>
-    <header class="bg-brown d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm">
+    <header class="bg-grey-dark d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm">
       <h1 class="h3 my-0 me-md-auto fw-normal text-grey">El Llugarín</h1>
         <nav class="navbar navbar-expand-lg navbar-dark my-2 my-md-0 me-md-3">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,24 +34,54 @@
                 data-bs-toggle="dropdown"
                 href="#"
                 >Noticias</a>
-              <ul class="dropdown-menu bg-brown">
-                <li><a class="dropdown-item text-grey" href="/noticia1.html">Noticia 1</a></li>
-                <li><a class="dropdown-item text-grey" href="/noticia2.html">Noticia 2</a></li>
-                <li><a class="dropdown-item text-grey" href="/noticia3.html">Noticia 3</a></li>
+              <ul class="dropdown-menu bg-grey-dark">
+                <li><a class="dropdown-item action text-grey" href="/noticia1.html">Noticia 1</a></li>
+                <li><a class="dropdown-item action text-grey" href="/noticia2.html">Noticia 2</a></li>
+                <li><a class="dropdown-item action text-grey" href="/noticia3.html">Noticia 3</a></li>
               </ul>
             </li>
             <li class="nav-item pe-3">
               <a class="nav-link text-grey" href="/faqs.html">FAQS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-grey" href="/contacto.html">Contacto</a>
+              <a class="nav-link text-grey activa" href="/contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <main class="container-sm">
-      
+    <main>
+      <h2 class="text-center">CONTACTO</h2>
+      <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5796.213950602889!2d-4.734615270088188!3d43.41659160969482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd49eb114ba7261d%3A0x6811bf100ad65775!2sPlaya%20Cue!5e0!3m2!1ses!2ses!4v1612654590662!5m2!1ses!2ses" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <hr class="container mb-4">
+      <section class="container text-center">
+        <h3>FORMULARIO DE CONTACTO</h3>
+        <form class="needs-validation was-validated" novalidate="">
+          <div class="container w-75">
+              <div class="form p-3">
+                  <input type="text" class="form-control text-muted" id="name" placeholder="Nombre completo" required>
+                  <div class="valid-feedback">Perfecto.</div>
+                  <div class="invalid-feedback">Por favor escriba su nombre.</div>
+              </div>
+              <div class="form p-3">
+                  <input type="email" class="form-control text-muted" id="email" placeholder="Email" required>
+                  <div class="valid-feedback">Perfecto.</div>
+                  <div class="invalid-feedback">Por favor escriba su Email.</div>
+              </div>
+              <div class="form p-3">
+                  <input type="text" class="form-control text-muted" id="subject" placeholder="Asunto" required>
+                  <div class="valid-feedback">Perfecto.</div>
+                  <div class="invalid-feedback">Por favor escriba su motivo.</div>
+              </div>
+              <div class="form p-3">
+                  <textarea class="form-control text-muted" id="message" placeholder="Mensage" required></textarea>
+                  <div class="valid-feedback">Perfecto.</div>
+                  <div class="invalid-feedback">Por favor escriba su mensaje.</div>
+              </div>
+          </div>
+          <button class="p-3 btn bg-grey-dark text-grey btn-lg" type="submit">Enviar</button>
+      </form>
+      </section>
     </main>
     <footer>
       
