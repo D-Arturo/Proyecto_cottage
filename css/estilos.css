@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
 :root{
   --brown: #bf9663;
   --caqui: #bf9c5a;
@@ -41,6 +42,7 @@
 }
 a.action:hover, a.activa:active{
   color: var(--grey-dark) !important;
+  background-color: white;
 }
 a.activa{
   border-bottom: 3px solid;
@@ -52,9 +54,10 @@ a.activa{
   justify-content: space-between;
   cursor: pointer;
   transition: 0.4s;
-  
 }
-
+.question-answer__accordion{
+  border-bottom: 1px solid var(--brown);
+}
 .active img {
   transform: rotate(180deg);
   transition: all 0.3s ease-in;
@@ -72,10 +75,13 @@ a.activa{
 
 .question img {
   align-self: center;
+  width: 15px;
 }
 
 .active > .answer {
   display: block;
   padding-bottom: 1.3rem;
-  color: var(--darkGrayBlue);
+}
+.active h2{
+  font-weight: 700;
 }
