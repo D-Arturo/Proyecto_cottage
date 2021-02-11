@@ -9,6 +9,7 @@
 }
 * {
   font-family: "Roboto Mono", monospace !important;
+  font-size: 14px;
 }
 .bg-brown {
   background-color: var(--brown)  !important;
