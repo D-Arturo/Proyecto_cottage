@@ -41,7 +41,7 @@
 .text-grey-dark {
   color: var(--grey-dark) !important;
 }
-a.action:hover, a.activa:active{
+.action:hover, .activa:active{
   color: var(--grey-dark) !important;
   background-color: white;
 }

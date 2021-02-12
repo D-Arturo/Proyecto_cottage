@@ -18,20 +18,20 @@
           </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-grey-dark">
-            <li class="nav-item pe-3 ">
+            <li class="nav-item action ps-2 pe-2">
               <a class="nav-link text-grey" href="./index.html">Inicio</a>
             </li>
-            <li class="nav-item dropdown pe-3">
+            <li class="nav-item dropdown action ps-2 pe-2">
               <a class="nav-link dropdown-toggle text-grey" id="navbarDropdown" role="button" data-bs-toggle="dropdown" href="#">Catálogo</a>
               <ul class="dropdown-menu bg-grey-dark">
                 <li><a class="dropdown-item action text-grey" href="./habitaciones.html">Habitaciones</a></li>
                 <li><a class="dropdown-item action text-grey" href="./servicios.html">Servicios</a></li>
                 <li><a class="dropdown-item action text-grey" href="./alquileres.html">Alquileres</a></li>
               </ul>
-            <li class="nav-item pe-3">
+            <li class="nav-item action ps-2 pe-2">
               <a class="nav-link text-grey" href="./galeria.html">Galería</a>
             </li>
-            <li class="nav-item dropdown pe-3">
+            <li class="nav-item action dropdown ps-2 pe-2">
               <a
                 class="nav-link dropdown-toggle text-grey activa"
                 id="navbarDropdown"
@@ -45,10 +45,10 @@
                 <li><a class="dropdown-item action text-grey activa" href="./noticia3.html">Noticia 3</a></li>
               </ul>
             </li>
-            <li class="nav-item pe-3">
+            <li class="nav-item action ps-2 pe-2">
               <a class="nav-link text-grey" href="./faqs.html">FAQS</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item action ps-2 pe-2">
               <a class="nav-link text-grey" href="./contacto.html">Contacto</a>
             </li>
           </ul>
@@ -56,7 +56,24 @@
       </nav>
     </header>
     <main class="container-sm">
-     
+      <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <a class="page-link text-grey-dark" href="./noticia2.html" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          <li class="page-item"><a class="page-link text-grey-dark" href="./noticia1.html">1</a></li>
+          <li class="page-item" aria-current="page">
+            <a class="page-link text-grey-dark" href="./noticia2.html">2</a>
+          </li>
+          <li class="page-item disabled"><a class="page-link bg-grey-dark text-grey" href="./noticia3.html">3</a></li>
+          <li class="page-item disabled">
+            <a class="page-link text-grey" href="./noticia3.html" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </main>
     <footer class="footer mt-auto pt-4 bg-grey-dark text-grey">
       
