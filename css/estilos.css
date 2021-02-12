@@ -87,8 +87,11 @@ a.activa{
   font-weight: 700;
 }
 .jumbotron-image{
-  background: url(../img/noticias.jpg) no-repeat;
+  background: url(../img/cabezeraNoticias.jpg) no-repeat;
   height: 250px;
   background-size: cover;
   margin-bottom: 40px;
+}
+.jumbotron-image h2{
+  font-size: 4rem;
 }
