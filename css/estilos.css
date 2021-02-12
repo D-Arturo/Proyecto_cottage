@@ -86,3 +86,9 @@ a.activa{
 .active h2{
   font-weight: 700;
 }
+.jumbotron-image{
+  background: url(../img/noticias.jpg) no-repeat;
+  height: 250px;
+  background-size: cover;
+  margin-bottom: 40px;
+}
