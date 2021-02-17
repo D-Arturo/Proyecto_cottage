@@ -41,6 +41,7 @@
 .text-grey-dark {
   color: var(--grey-dark) !important;
 }
+/* FAQs */
 .action:hover, .activa:active{
   color: var(--grey-dark) !important;
   background-color: white;
@@ -86,6 +87,7 @@ a.activa{
 .active h2{
   font-weight: 700;
 }
+/* Noticias */
 .jumbotron-image{
   background: url(../img/cabezeraNoticias.jpg) no-repeat;
   height: 250px;
@@ -95,3 +97,34 @@ a.activa{
 .jumbotron-image h2{
   font-size: 4rem;
 }
+/* Galeria */
+.panel{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  flex: .5;
+  margin: 10px;
+  transition: all 700ms ease-in;
+}
+.panel h3{
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.activo{
+  flex: 5;
+}
+.panel.activo h3{
+  opacity: 1;
+  transition: opacity .3s ease-in .4s;
+}
+/* ================================== */
