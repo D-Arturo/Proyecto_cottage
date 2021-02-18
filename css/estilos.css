@@ -127,3 +127,42 @@ a.activa{
   opacity: 1;
   transition: opacity .3s ease-in .4s;
 }
+
+/* Servicios */
+
+.imgMascotas{
+  object-fit: none;
+  object-position: 68% 41%;
+  width: 220px;
+  height: 220px;
+}
+.imgConectividad{
+  object-fit: none;
+  object-position: 50% 54%;
+  width: 220px;
+  height: 220px;
+}
+.imgBuffet{
+  object-fit: none;
+  object-position: 62% 50%;
+  width: 220px;
+  height: 220px;
+}
+.imgPiscina{
+  object-fit: none;
+  object-position: 21% 58%;
+  width: 220px;
+  height: 220px;
+}
+.imgFumar{
+  object-fit: cover;
+  object-position: 28% 50%;
+  width: 220px;
+  height: 220px;
+}
+.imgAlquiler{
+  object-fit: none;
+  object-position: 35% 33%;
+  width: 220px;
+  height: 220px;
+}
