@@ -94,7 +94,7 @@ a.activa{
   background-size: cover;
   margin-bottom: 40px;
 }
-.jumbotron-image h2{
+.jumbotron-image h2, .jumbotron-image-noticias h2 {
   font-size: 4rem;
 }
 /* Galeria */
@@ -165,4 +165,9 @@ a.activa{
   object-position: 35% 33%;
   width: 220px;
   height: 220px;
+}
+.jumbotron-image-noticias{
+  background: url(../img/cabezeraNoticias.jpg) no-repeat;
+  height: 250px;
+  background-size: cover;
 }
