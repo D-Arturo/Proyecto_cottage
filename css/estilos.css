@@ -60,7 +60,7 @@ a.activa{
 .question-answer__accordion{
   border-bottom: 1px solid var(--brown);
 }
-.active img {
+.active .imgfaq {
   transform: rotate(180deg);
   transition: all 0.3s ease-in;
 }
